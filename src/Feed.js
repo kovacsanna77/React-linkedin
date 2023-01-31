@@ -24,10 +24,10 @@ function Feed() {
               <InputOption Icon={YouTubeIcon} title="Video" color='#e7a33e'/>
               <InputOption Icon={EventIcon} title="Event" color='#c0cbcd'/>
               <InputOption Icon={NewspaperIcon} title="Write article" color='#7fc15e'/>
-
-
             </div>
         </div>
+{/*Post section */}
+
     </div>
   )
 }
