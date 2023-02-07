@@ -6,6 +6,7 @@ import EventIcon from '@mui/icons-material/Event';
 import NewspaperIcon from '@mui/icons-material/Newspaper';
 import './Feed.css'
 import InputOption from './InputOption';
+import Post from './Post'
 
 function Feed() {
   return (
@@ -26,8 +27,9 @@ function Feed() {
               <InputOption Icon={NewspaperIcon} title="Write article" color='#7fc15e'/>
             </div>
         </div>
-{/*Post section */}
 
+{/*Post section */}
+    <Post name='Anna Kovács' description='this is a test' message='Wow this worked' />
     </div>
   )
 }
